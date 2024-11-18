@@ -37,11 +37,11 @@
 private void initializeData(SQLiteDatabase db) {
         db.execSQL("DELETE FROM " + TABLE_NAME);
         String[] fullNames = {
-                "Новикова Анастасия Евгеньевна",
-                "Петров Пётр Петрович",
-                "Сидоров Сидор Сидорович",
-                "Никитин Никита Никитич",
-                "Сергеев Сергей Сергеевич"
+                "Бобылева Виктория Алексеевна",
+                "Сергеев Антон Геннадьевич",
+                "Петров Петр Петрович",
+                "Соловьева Наталья Андреевна",
+                "Цветкова Мария Федоровна"
         };
         for (String name : fullNames) {
             ContentValues values = new ContentValues();
@@ -63,7 +63,7 @@ addGroupmateButton.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
                     SQLiteDatabase db = dbHelper.getWritableDatabase();
                     db.execSQL("INSERT INTO " + DatabaseHelper.TABLE_NAME + " (" +
-                            DatabaseHelper.COLUMN_FULL_NAME + ") VALUES ('Новый одногруппник');");
+                            DatabaseHelper.COLUMN_FULL_NAME + ") VALUES ('никитин илья сергеевич');");
                 }
             });
 ```
