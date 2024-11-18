@@ -29,7 +29,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Добавить Одноклассинка"
+        android:text="Добавить Одногруппника"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="68dp"
         tools:layout_editor_absoluteY="37dp" />
