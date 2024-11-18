@@ -67,7 +67,6 @@ addGroupmateButton.setOnClickListener(new View.OnClickListener() {
             });
 ```
 <p align="center">
-  <img src="https://github.com/vikussssssya/llaba3/blob/main/3.3.png" width="250" height="500"> 
 <img src="https://github.com/vikussssssya/llaba3/blob/main/3.4.png" width="250" height="500"> 
 </p>
 
